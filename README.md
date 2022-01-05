@@ -9,6 +9,6 @@ mp4-converter - Convert an mp4 video to webp|ogv optimized for web and save the 
 
 # REQUIREMENTS
 - ffmpeg
-- 
+
 # AUTHOR: 
 mp4-converter is written by Alfio Salanitri www.alfiosalanitri.it and are licensed under the MIT License.
