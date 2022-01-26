@@ -48,6 +48,10 @@ if ! command -v ffmpeg &> /dev/null; then
   printf "[${red}${icon_ko}${nocolor}] Sorry, but ${green}ffmpeg${nocolor} is required. Install it with apt install ffmpeg.\n"
   exit 1;
 fi
+if ! command -v file &> /dev/null; then
+  printf "[${red}${icon_ko}${nocolor}] Sorry, but ${green}file${nocolor} is required. Install it with apt install file.\n"
+  exit 1;
+fi
 
 # Check if input is gif
 if [[ $(file "$mp4") != *MP4* ]]; then
