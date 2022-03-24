@@ -93,4 +93,4 @@ echo ""
 
 # end
 printf "\n\n ${icon_rocket} That's all!\n"
-exit 1
+exit 0
