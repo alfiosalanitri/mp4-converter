@@ -2,10 +2,10 @@
 mp4-converter - Convert an mp4 video to webp|ogv optimized for web and save the first frame as jpeg
 
 # INSTALLATION
-- `sudo chmod +x /path/to/mp4-converter.sh`
+- `sudo chmod +x /path/to/mp4-converter`
 
 # USAGE
-- `mp4-converter.sh input-video.mp4`
+- `mp4-converter input-video.mp4`
 
 # REQUIREMENTS
 - ffmpeg
